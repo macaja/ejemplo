@@ -4,7 +4,7 @@
 		module="ejemplo_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180518154207"
+		publication="20180518163713"
 	>
 		<description>
 		ejemplo
@@ -36,5 +36,10 @@
 		<dependency org="com.typesafe.akka" name="akka-actor_2.12" rev="2.5.12" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.5.12" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
+		<dependency org="de.heikoseeberger" name="akka-log4j_2.12" rev="1.4.0" conf="compile->default(compile)"/>
+		<dependency org="de.heikoseeberger" name="akka-http-circe_2.12" rev="1.18.1" conf="compile->default(compile)"/>
+		<dependency org="io.circe" name="circe-core_2.12" rev="0.8.0" conf="compile->default(compile)"/>
+		<dependency org="io.circe" name="circe-generic_2.12" rev="0.8.0" conf="compile->default(compile)"/>
+		<dependency org="io.circe" name="circe-parser_2.12" rev="0.8.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

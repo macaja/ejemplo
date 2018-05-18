@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mauricio/projects/mine/ejemplo/src/main/scala/example/infrasetructura/adapatadores/http/api/Rutas.scala:32:16: Cannot find an implicit ExecutionContext. You might pass[0m
+[0m[[0m[31merror[0m] [0m[0man (implicit ec: ExecutionContext) parameter to your method[0m
+[0m[[0m[31merror[0m] [0m[0mor import scala.concurrent.ExecutionContext.Implicits.global.[0m
+[0m[[0m[31merror[0m] [0m[0m  def rutas =  crearFactura ~ crearUser[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

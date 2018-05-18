@@ -12,6 +12,11 @@ lazy val root = (project in file(".")).
       akkaHttp,
       akkaActor,
       akkaStream,
-      scalaTest % Test
+      scalaTest % Test,
+      "de.heikoseeberger"                %% "akka-log4j"                           % "1.4.0",
+      "de.heikoseeberger"                %% "akka-http-circe"                      % "1.18.1",
+      "io.circe"                         %% "circe-core"                           % "0.8.0",
+      "io.circe"                         %% "circe-generic"                        % "0.8.0",
+      "io.circe"                         %% "circe-parser"                         % "0.8.0"
     )
   )

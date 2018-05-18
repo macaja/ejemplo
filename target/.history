@@ -1,0 +1,9 @@
+compile
+run
+compile
+reload
+reload+
+compile
+run
+compile
+exit
